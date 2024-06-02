@@ -9,7 +9,9 @@ To detect flood based on rainfalls using deep learning techniques such as Artifi
 
 ## Data Collection and Exploration
 To begin with the implementation of the flood detection, the Malaysia Flood Dataset was downloaded from the Omdena website. The National Centre for Environment Information provided rainfall data for many states and districts in Malaysia from 2000 to 2010. The dataset consists of 825 samples, and each sample consists of 17 variables. Columns in the dataset include the following:
+
 ![image](https://github.com/Hm-08/Flood-Detection/assets/64012738/c81cc739-4f71-4b62-a9dd-6473ccf108b0)
+
 However, three columns, namely “STATE”, “ DISTRICT”, and “YEAR”, have been dropped from the dataset because they might not contribute useful information for the current learning task. Besides that, data exploration is carried out to understand its characteristics, patterns, and relationships, which involves visualisation techniques and data analysis to find any missing values or anomalies in the data. Other than that, a few histograms are displayed to observe how the rainfall index changes during the rainy season, from September to January.
 
 ## Data Preprocessing
